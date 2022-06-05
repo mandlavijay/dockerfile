@@ -1,3 +1,3 @@
-FROM tomcat9
+FROM nginx
 WORKDIR /vijay
 COPY /var/lib/jenkins/workspace/job1/*.class  .
