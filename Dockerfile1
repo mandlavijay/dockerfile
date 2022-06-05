@@ -1,0 +1,3 @@
+FROM nginx
+WORKDIR /usr/share/hginx/html
+COPY */sample.html .
